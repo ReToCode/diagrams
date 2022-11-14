@@ -1,0 +1,208 @@
+<mxfile host="65bd71144e">
+    <diagram id="qjmzTpRJZYJpSohU_zQU" name="Page-1">
+        <mxGraphModel dx="1130" dy="2378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="KService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="creates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="creates" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="3" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="460" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="reacts" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="creates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="creates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Controller&lt;br&gt;(Service)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="205" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="KRoute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="370" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="KConfiguration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="reacts" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="creates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="creates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="creates" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="10" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Controller&lt;br&gt;(Route)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="475" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="reacts" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="updates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="updates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Controller&lt;br&gt;(Labeler)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="335" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="K8S Service&lt;br&gt;(placeholder)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="620" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="KIngress" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="620" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="KRevision" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="reacts" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="creates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Controller (Configuration)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="-60" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="reacts" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="creates" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="creates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="creates" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="creates" style="edgeStyle=none;html=1;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Controller&lt;br&gt;(Revision)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="85" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="KImageCache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="30" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="PodAutoscaler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="K8S Deployment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="210" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="reacts" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="cleanup old" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="225" y="-100"/>
+                            <mxPoint x="625" y="-100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Controller&lt;br&gt;(GC)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="85" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="reacts" style="edgeStyle=none;html=1;" edge="1" parent="1" source="36" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="creates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="36" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="creates" style="edgeStyle=none;html=1;" edge="1" parent="1" source="42" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="creates" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="36" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="scales" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="36" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1275" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="PodAutoScaler &lt;br&gt;(KPA)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="1220" y="85" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="KServerlessService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="1430" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="K8S Service&lt;br&gt;(public/private)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="-160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="reacts" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="42" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="42" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Controller&lt;br&gt;(ServerlessService)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="1435" y="-60" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;" edge="1" parent="1" source="44" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="makes sure that the revisions and configurations referenced from a Route are labeled with the routingState label and routes annotation." style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="410" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="K8S Secret&lt;br&gt;(TLS serving certs)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="295" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="KCertificate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="620" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="K8S Endpoints&lt;br&gt;(public)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="1490" y="-160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="KMetric" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="1430" y="190" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="reacts" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="54" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="creates" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="54" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="creates" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="54" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="creates" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="54" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="DomainMapping" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="765" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="KDomainMapping" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="800" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="KClusterDomainClaim" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="740" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="KCertificate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="800" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="KIngress" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="860" width="120" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
